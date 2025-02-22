@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+    <body>
+            <h1>First form</h1>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>General Information</legend>
+                    <div>
+                        <label for="">First Name:</label>
+                        <input type="text" 
+                        name="fname"
+                        placeholder="Enter your first name"
+                        maxlength="30"
+                        >
+
+                        <label for="">Last Name:</label>
+                        <input type="text" 
+                        name="lname"
+                        placeholder="Enter your last name"
+                        maxlength="30">
+                    </div><br>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" name="email"
+                        placeholder="Enter your last name">
+                    </div><br>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" name="pwd">
+                    </div><br>
+                    <div>
+                        <label for="">Birth date</label>
+                        <input type="date" name="Birth date">
+                        <input type="datetime" name="Birth date2">
+                        <input type="datetime-local" name="Birth date3">
+                    </div><br>
+                    <div>
+                        <label for="">Age</label>
+                        <input type="number" name="age"
+                        min="1" max="120">
+                    </div><br>
+                    <div>
+                        <label for="">Favorite color</label>
+                        <input type="color" name="favcolor">
+                    </div><br>
+                    <div>
+                        <label for="">File</label>
+                        <input type="file" name="File">
+                    </div><br>
+                    <div>
+                        <label for="">Date</label><br>
+                        <input type="month" name="Month">
+                        <input type="week" name="Week">
+                        <input type="time" name="Hour">
+                    </div><br>
+                    <div>
+                        <label for="">Favorite Animal</label>
+                        <input type="radio" name="catg" value="A" checked> Cat
+                        <input type="radio" name="catg" value="B"> Dog
+                        <input type="radio" name="catg" value="C">  Bird
+                        <input type="radio" name="catg" value="D"> Fox
+                    </div><br>
+                    <div>
+                        <label for="">Hobbies</label>
+                        <input type="checkbox" name="Hobbie1">Tennis
+                        <input type="checkbox" name="Hobbie2" checked>Taekwondo
+                        <input type="checkbox" name="Hobbie3">Skating
+                        <input type="checkbox" name="Hobbie4">Soccer
+                    </div><br>
+                    <div>
+                        <label for="">City</label>
+                        <select name="city">
+                            <option value="1">Tunja</option>
+                            <option value="2">Duitama</option>
+                            <option value="3" selected>Sogamoso</option>
+                    </div><br>
+                    <div>
+                        <label for="">Description of your city</label>
+                        <textarea name="desc" cols="16" rows="6">Description of your city</textarea>
+                    </div><br>
+                    <div>
+                        <button type="button">Botonnn</button>
+                        <input type="button" value="Stay">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Send"><br>
+                        <button type="button">Botonnn</button>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Send</button>
+                    </div><br>
+                    
+                </fieldset>
+            </form>
+    </body>
